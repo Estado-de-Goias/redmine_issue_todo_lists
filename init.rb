@@ -2,11 +2,11 @@ require 'redmine'
 require_dependency 'redmine_issue_todo_lists/hooks'
 
 Redmine::Plugin.register :redmine_issue_todo_lists do
-  name 'Issue To-do Lists Plugin'
+  name 'Plugin - Lista de Prioridades'
   author 'Den'
-  description 'Organize issues in to-do lists by manually ordering their priority'
+  description 'Organiza e prioriza as tarefas em listas'
   version '1.3'
-  url 'https://github.com/canidas/redmine_issue_todo_lists'
+  url 'https://github.com/Estado-de-Goias/redmine_issue_todo_lists'
   author_url 'mailto:dev@den.cx'
 
   project_module :issue_todo_lists do
